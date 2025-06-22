@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "city": "Tokyo",
+    "temperature": 20.5,
+    "description": "Clear sky",
+    "date": "2025-06-01T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "city": "New York",
+    "temperature": 18.2,
+    "description": "Cloudy",
+    "date": "2025-06-01T11:00:00Z"
+  },
+  {
+    "id": 3,
+    "city": "London",
+    "temperature": 15.7,
+    "description": "Rain",
+    "date": "2025-06-01T12:00:00Z"
+  }
+]

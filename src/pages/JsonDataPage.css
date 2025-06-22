@@ -1,0 +1,51 @@
+.json-data-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.json-data-page h1 {
+  font-size: 2rem;
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.weather-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card-background);
+  box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.weather-table th,
+.weather-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.weather-table th {
+  background: var(--primary-color);
+  color: white;
+}
+
+.weather-table tr:nth-child(even) {
+  background: var(--background-color);
+}
+
+@media (max-width: 768px) {
+  .json-data-page {
+    padding: 10px;
+  }
+
+  .json-data-page h1 {
+    font-size: 1.5rem;
+  }
+
+  .weather-table {
+    font-size: 0.9rem;
+    display: block;
+    overflow-x: auto;
+  }
+}

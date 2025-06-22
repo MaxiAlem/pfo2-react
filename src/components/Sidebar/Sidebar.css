@@ -1,0 +1,137 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 60px; /* Ancho colapsado */
+  background: var(--primary-color);
+  color: var(--text-color);
+  transition: width 0.3s ease;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.sidebar.expanded {
+  width: 250px; /* Ancho expandido */
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  height: 60px;
+}
+
+.sidebar-logo {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.sidebar.expanded .sidebar-logo {
+  transform: scale(1.2);
+}
+
+.sidebar-title {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.sidebar.expanded .sidebar-title {
+  opacity: 1;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav li {
+  margin: 0.5rem 0;
+}
+
+.sidebar-nav a {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.sidebar-nav a:hover {
+  background: var(--secondary-color);
+}
+
+.sidebar-nav a.active {
+  background: var(--accent-color);
+  color: var(--text-dark);
+}
+
+.nav-icon {
+  font-size: 1.5rem;
+  min-width: 24px;
+}
+
+.nav-text {
+  margin-left: 1rem;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.sidebar.expanded .nav-text {
+  opacity: 1;
+}
+
+.mobile-menu-toggle {
+  display: none;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  background: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  z-index: 1100;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 0;
+    pointer-events: none;
+  }
+
+  .sidebar.expanded {
+    width: 250px;
+    pointer-events: auto;
+  }
+
+  .mobile-menu-toggle {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar.expanded {
+    width: 200px;
+  }
+
+  .sidebar-title {
+    font-size: 1.2rem;
+  }
+
+  .nav-icon {
+    font-size: 1.2rem;
+  }
+
+  .nav-text {
+    font-size: 0.9rem;
+  }
+}

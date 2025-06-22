@@ -1,0 +1,154 @@
+.home-page {
+  margin-left: 60px; /* Ajusta al sidebar */
+  padding: 2rem;
+  background: var(--background-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.home-page.dark-mode {
+  background: var(--background-dark);
+  color: var(--text-dark);
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.hero h1 {
+  color: var(--primary-color);
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.carousel-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.presentation {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.presentation h2 {
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.presentation p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.team-card-link {
+  text-decoration: none; /* Quita el subrayado del enlace */
+  color: inherit; /* Hereda el color del texto */
+}
+
+.team-card {
+  background: var(--card-background);
+  border: 1px solid var(--secondary-color);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 200px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px var(--shadow-color);
+  transition: transform 0.3s ease;
+  cursor: pointer; /* Indica que es clicable */
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+}
+
+.team-img {
+  width: 100%;
+  max-width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+.team-card h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .home-page {
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .presentation h2 {
+    font-size: 1.8rem;
+  }
+
+  .presentation p {
+    font-size: 1rem;
+  }
+
+  .team-card {
+    max-width: 150px;
+  }
+
+  .team-img {
+    max-width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .team-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-card {
+    max-width: 100%;
+  }
+
+  .team-card h3 {
+    font-size: 1rem;
+  }
+}
