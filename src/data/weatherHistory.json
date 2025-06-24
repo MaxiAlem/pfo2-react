@@ -1,23 +1,212 @@
 [
   {
     "id": 1,
-    "city": "Tokyo",
-    "temperature": 20.5,
-    "description": "Clear sky",
-    "date": "2025-06-01T10:00:00Z"
+    "city": "Buenos Aires",
+    "temperature": 44.2,
+    "description": "Máxima absoluta",
+    "date": "1957-01-29T15:00:00Z"
   },
   {
     "id": 2,
-    "city": "New York",
-    "temperature": 18.2,
-    "description": "Cloudy",
-    "date": "2025-06-01T11:00:00Z"
+    "city": "Buenos Aires",
+    "temperature": -5.4,
+    "description": "Mínima absoluta",
+    "date": "1918-07-09T07:00:00Z"
   },
   {
     "id": 3,
-    "city": "London",
-    "temperature": 15.7,
-    "description": "Rain",
-    "date": "2025-06-01T12:00:00Z"
+    "city": "Córdoba",
+    "temperature": 44.6,
+    "description": "Máxima absoluta",
+    "date": "1955-01-15T15:00:00Z"
+  },
+  {
+    "id": 4,
+    "city": "Córdoba",
+    "temperature": -7.2,
+    "description": "Mínima absoluta",
+    "date": "1953-07-09T07:00:00Z"
+  },
+  {
+    "id": 5,
+    "city": "Mendoza",
+    "temperature": 44.4,
+    "description": "Máxima absoluta",
+    "date": "2003-01-30T15:00:00Z"
+  },
+  {
+    "id": 6,
+    "city": "Mendoza",
+    "temperature": -7.8,
+    "description": "Mínima absoluta",
+    "date": "1971-07-10T07:00:00Z"
+  },
+  {
+    "id": 7,
+    "city": "San Miguel de Tucumán",
+    "temperature": 44.7,
+    "description": "Máxima absoluta",
+    "date": "2009-10-31T15:00:00Z"
+  },
+  {
+    "id": 8,
+    "city": "San Miguel de Tucumán",
+    "temperature": -4.8,
+    "description": "Mínima absoluta",
+    "date": "1953-07-18T07:00:00Z"
+  },
+  {
+    "id": 9,
+    "city": "La Plata",
+    "temperature": 42.3,
+    "description": "Máxima absoluta",
+    "date": "1957-01-29T15:00:00Z"
+  },
+  {
+    "id": 10,
+    "city": "La Plata",
+    "temperature": -5.7,
+    "description": "Mínima absoluta",
+    "date": "1967-07-16T07:00:00Z"
+  },
+  {
+    "id": 11,
+    "city": "San Salvador de Jujuy",
+    "temperature": 41.8,
+    "description": "Máxima absoluta",
+    "date": "2010-12-10T15:00:00Z"
+  },
+  {
+    "id": 12,
+    "city": "San Salvador de Jujuy",
+    "temperature": -6.3,
+    "description": "Mínima absoluta",
+    "date": "1970-06-30T07:00:00Z"
+  },
+  {
+    "id": 13,
+    "city": "Salta",
+    "temperature": 42.5,
+    "description": "Máxima absoluta",
+    "date": "2013-10-16T15:00:00Z"
+  },
+  {
+    "id": 14,
+    "city": "Salta",
+    "temperature": -7.1,
+    "description": "Mínima absoluta",
+    "date": "1967-07-04T07:00:00Z"
+  },
+  {
+    "id": 15,
+    "city": "San Fernando del Valle de Catamarca",
+    "temperature": 46.0,
+    "description": "Máxima absoluta",
+    "date": "2009-10-16T15:00:00Z"
+  },
+  {
+    "id": 16,
+    "city": "San Fernando del Valle de Catamarca",
+    "temperature": -7.5,
+    "description": "Mínima absoluta",
+    "date": "1970-07-09T07:00:00Z"
+  },
+  {
+    "id": 17,
+    "city": "Paraná",
+    "temperature": 44.5,
+    "description": "Máxima absoluta",
+    "date": "1943-12-17T15:00:00Z"
+  },
+  {
+    "id": 18,
+    "city": "Paraná",
+    "temperature": -7.0,
+    "description": "Mínima absoluta",
+    "date": "1955-07-13T07:00:00Z"
+  },
+  {
+    "id": 19,
+    "city": "Santa Rosa",
+    "temperature": 43.4,
+    "description": "Máxima absoluta",
+    "date": "1957-01-29T15:00:00Z"
+  },
+  {
+    "id": 20,
+    "city": "Santa Rosa",
+    "temperature": -9.1,
+    "description": "Mínima absoluta",
+    "date": "1967-07-17T07:00:00Z"
+  },
+  {
+    "id": 21,
+    "city": "Rawson",
+    "temperature": 42.8,
+    "description": "Máxima absoluta",
+    "date": "2000-01-30T15:00:00Z"
+  },
+  {
+    "id": 22,
+    "city": "Rawson",
+    "temperature": -10.4,
+    "description": "Mínima absoluta",
+    "date": "1968-07-11T07:00:00Z"
+  },
+  {
+    "id": 23,
+    "city": "Viedma",
+    "temperature": 43.0,
+    "description": "Máxima absoluta",
+    "date": "2000-01-30T15:00:00Z"
+  },
+  {
+    "id": 24,
+    "city": "Viedma",
+    "temperature": -12.2,
+    "description": "Mínima absoluta",
+    "date": "1963-07-10T07:00:00Z"
+  },
+  {
+    "id": 25,
+    "city": "San Juan",
+    "temperature": 44.4,
+    "description": "Máxima absoluta",
+    "date": "1950-01-10T15:00:00Z"
+  },
+  {
+    "id": 26,
+    "city": "San Juan",
+    "temperature": -8.6,
+    "description": "Mínima absoluta",
+    "date": "1970-07-01T07:00:00Z"
+  },
+  {
+    "id": 27,
+    "city": "Neuquén",
+    "temperature": 42.3,
+    "description": "Máxima absoluta",
+    "date": "2012-01-15T15:00:00Z"
+  },
+  {
+    "id": 28,
+    "city": "Neuquén",
+    "temperature": -8.6,
+    "description": "Mínima absoluta",
+    "date": "1962-07-11T07:00:00Z"
+  },
+  {
+    "id": 29,
+    "city": "San Luis",
+    "temperature": 44.0,
+    "description": "Máxima absoluta",
+    "date": "1972-01-24T15:00:00Z"
+  },
+  {
+    "id": 30,
+    "city": "San Luis",
+    "temperature": -6.9,
+    "description": "Mínima absoluta",
+    "date": "1963-07-14T07:00:00Z"
   }
 ]

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { FaHome, FaSearch, FaUser, FaDatabase, FaBook, FaBars } from "react-icons/fa";
+import { FaHome, FaSearch, FaUser, FaDatabase, FaBook, FaBars, FaImages } from "react-icons/fa";
 import "./Sidebar.css";
 import climaLogo from '../../assets/clima.png'; // Ajusta la ruta según la ubicación
 
@@ -81,6 +81,13 @@ const Sidebar = () => {
                 <span className="nav-text">Datos JSON</span>
               </NavLink>
             </li>
+            <li>
+              <NavLink to="/galeria" className={({ isActive }) => (isActive ? "active" : "")}>
+                <FaImages className="nav-icon" />
+                <span className="nav-text">Galeria</span>
+              </NavLink>
+            </li>
+            
             <li>
               <NavLink to="/bitacora" className={({ isActive }) => (isActive ? "active" : "")}>
                 <FaBook className="nav-icon" />

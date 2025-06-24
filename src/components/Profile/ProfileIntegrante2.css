@@ -141,7 +141,7 @@ form button:disabled {
 
 .social-links a {
   margin: 0 1rem;
-  color: var(--accent-color);
+
   text-decoration: none;
   font-weight: bold;
 }
@@ -288,3 +288,34 @@ form button:disabled {
     font-size: 0.9rem;
   }
 }
+
+.social-links {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-link {
+  color: var(--sidebar-text);
+  font-size: 2.2rem;
+  transition: color 0.2s;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Efecto de explosión al hacer hover */
+.icon-link:hover {
+  animation: explode 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+  color: var(--sidebar-text);
+}
+
+@keyframes explode {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }}

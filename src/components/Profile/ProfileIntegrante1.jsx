@@ -1,6 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { ThemeContext } from '../../context/ThemeContext';
 import { SiMysql, SiMongodb, SiReact, SiNodedotjs, SiHtml5, SiCss3, SiJavascript, SiShopify, SiZapier } from 'react-icons/si';
+import { FaInstagram, FaGithub, FaWhatsapp, FaLinkedin, FaSteam } from "react-icons/fa";
 import { FaReact } from 'react-icons/fa';
 import './ProfileIntegrante1.css';
 
@@ -111,7 +112,25 @@ const ProfileIntegrante1 = () => {
     ))}
   </div>
 </section>
-
+<footer className="footer">
+  <div className="social-links-1">
+    <a href="https://www.instagram.com/maerc_maxi/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="icon-link-1">
+      <FaInstagram />
+    </a>
+    <a href="https://github.com/MaxiAlem" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="icon-link-1">
+      <FaGithub />
+    </a>
+    <a href="https://wa.me/542984899792" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="icon-link-1">
+      <FaWhatsapp />
+    </a>
+    <a href="https://www.linkedin.com/in/maxialem90/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="icon-link-1">
+      <FaLinkedin />
+    </a>
+    <a href="https://steamcommunity.com/id/maerc/" target="_blank" rel="noopener noreferrer" aria-label="Steam" className="icon-link-1">
+      <FaSteam />
+    </a>
+  </div>
+</footer>
 
     </>
   );

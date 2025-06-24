@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { ThemeContext } from '../../context/ThemeContext';
 import { SiHtml5, SiCss3, SiJavascript, SiGit } from 'react-icons/si';
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { FaReact } from 'react-icons/fa';
 import profileImg from '../../assets/ProfileIntegrante2/profile.jpg';
 import project1Img from '../../assets/ProfileIntegrante2/project1.jpg';
@@ -211,12 +212,18 @@ const ProfileIntegrante2 = () => {
       </main>
 
       <footer className="footer">
-        <div className="social-links">
-          <a href="https://github.com/tu-usuario">GitHub</a>
-          <a href="https://linkedin.com/in/tu-perfil">LinkedIn</a>
-          <a href="https://twitter.com/tu-usuario">Twitter</a>
-        </div>
-      </footer>
+  <div className="social-links">
+    <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="icon-link">
+      <FaGithub />
+    </a>
+    <a href="https://linkedin.com/in/tu-perfil" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="icon-link">
+      <FaLinkedin />
+    </a>
+    <a href="https://twitter.com/tu-usuario" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="icon-link">
+      <FaTwitter />
+    </a>
+  </div>
+</footer>
     </div>
   );
 };

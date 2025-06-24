@@ -6,6 +6,8 @@
   --accent-color: #ffcc00;
   --text-color: #333;
   --shadow-color: rgba(0, 0, 0, 0.1);
+  --text-dark:#3b5897;
+  --sidebar-text:#f7f7f7
 }
 
 
@@ -17,6 +19,8 @@ body.dark {
   --accent-color: #ffdd55;
   --text-color: #e0e0e0;
   --shadow-color: rgba(255, 255, 255, 0.1);
+  --text-dark:#3b5897;
+  --sidebar-text:#1e2a44
 }
 
 body {
@@ -52,4 +56,18 @@ body {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.page-slide {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: all 0.4s cubic-bezier(0.22,0.61,0.36,1);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.page-slide.active {
+  opacity: 1;
+  transform: translateX(0%);
 }

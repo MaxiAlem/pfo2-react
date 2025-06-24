@@ -174,3 +174,23 @@
     max-width: none;
   }
 }
+.social-links-1 {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-link-1 {
+  color: var(--sidebar-text);
+  font-size: 2.2rem;
+  transition: transform 0.2s, color 0.2s;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Animación de zoom + rotación */
+.icon-link-1:hover {
+  transform: scale(1.25) rotate(360deg);
+  color: var(--sidebar-text);
+}

@@ -91,6 +91,66 @@ const BitacoraPage = () => {
       member: 'Alex Code',
       details: 'Planificado escribir README.md con descripción, instalación, y enlaces.',
     },
+    {
+      date: '2025-06-15',
+      task: 'Decidimos cambios a aplicar',
+      member: 'Alex Code',
+      details: 'de las diferentes opciones de merjoras a escoger, resolvimos elegir algunas que nos resultaban mas interesantes y que respondian a las posibilidades de nuestra web (ej: la paginacion de la api no era una opcion valida para nuestro caso)',
+    },
+    {
+      date: '2025-06-15',
+      task: 'Clonamos Repo',
+      member: 'Alex Code',
+      details: 'clonamos el repo original para poder generar los cambios para la nueva entrega',
+    },
+    {
+      date: '2025-06-17',
+      task: 'primer cambio: json con filtro y buscador',
+      member: 'Maxi Alem',
+      details: 'Expandimos el json local, aplicamos el buscador y algunos filtros',
+    },
+    {
+      date: '2025-06-18',
+      task: 'Salieron un umk3',
+      member: 'Maxi Alem',
+      details: 'X Z X Z Z X Z X Z C A',
+    },
+    {
+      date: '2025-06-20',
+      task: 'segundo cambio: Mejoras en los links social media',
+      member: 'Alex Code',
+      details: 'arreglos de urls falsas, uso de icons y animacion con el hoover',
+    },
+    {
+      date: '2025-06-21',
+      task: 'Arreglo de colores en general',
+      member: 'Alex Code',
+      details: 'mejora en el uso de la paleta para evitar contrastes muy bajos',
+    },
+    {
+      date: '2025-06-21',
+      task: 'tercer cambio: grid de imagenes',
+      member: 'Maxi Alem',
+      details: 'pagina nueva con un grid de imagenes con lightbox, salida del modal con boton ce cierre y con "Esc", paseo entre imagenes con boton de navegacion',
+    },
+    {
+      date: '2025-06-22',
+      task: 'Mejora en visuales. transicion de paginas tipo diapositivas',
+      member: 'Alex Code',
+      details: 'para complicarla un poco cerca del dia de entrega nos pusimos a jugar con el css para sacar una transicion entre paginas animada',
+    },
+    {
+      date: '2025-06-23',
+      task: 'subimos a git los ultimos cambios, deployeamos en vercel configuramos los .env y cruzamos los dedos',
+      member: 'Maxi Alem',
+      details: 'para complicarla un poco cerca del dia de entrega nos pusimos a jugar con el css para sacar una transicion entre paginas animada',
+    },
+    {
+      date: '2025-06-23',
+      task: 'un dust_2 en el 1.6 mientras esperamos el deploy',
+      member: 'Alex Code',
+      details: '',
+    },
   ];
 
   return (

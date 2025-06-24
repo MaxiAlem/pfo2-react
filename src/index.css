@@ -6,6 +6,7 @@
   --accent-color: #ffcc00;
   --text-color: #333;
   --shadow-color: rgba(0, 0, 0, 0.1);
+  --sidebar-text: #a8a8a8;;
 }
 
 
@@ -17,6 +18,7 @@ body.dark {
   --accent-color: #ffdd55;
   --text-color: #e0e0e0;
   --shadow-color: rgba(255, 255, 255, 0.1);
+  --sidebar-text: #3b5897;
 }
 
 body {
