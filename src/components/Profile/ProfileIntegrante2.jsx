@@ -213,13 +213,13 @@ const ProfileIntegrante2 = () => {
 
       <footer className="footer">
   <div className="social-links">
-    <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="icon-link">
+    <a href="https://www.linkedin.com/in/pablomiglesias" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="icon-link">
       <FaGithub />
     </a>
-    <a href="https://linkedin.com/in/tu-perfil" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="icon-link">
+    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="icon-link">
       <FaLinkedin />
     </a>
-    <a href="https://twitter.com/tu-usuario" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="icon-link">
+    <a href="https://x.com/pm_iglesias" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="icon-link">
       <FaTwitter />
     </a>
   </div>
